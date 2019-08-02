@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDBABE8A22F3E4A800A57A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABE8922F3E4A800A57A0A /* AppDelegate.m */; };
+		BDBABE8D22F3E4A800A57A0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABE8C22F3E4A800A57A0A /* ViewController.m */; };
+		BDBABE9022F3E4A800A57A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBABE8E22F3E4A800A57A0A /* Main.storyboard */; };
+		BDBABE9222F3E4AA00A57A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBABE9122F3E4AA00A57A0A /* Assets.xcassets */; };
+		BDBABE9522F3E4AA00A57A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBABE9322F3E4AA00A57A0A /* LaunchScreen.storyboard */; };
+		BDBABE9822F3E4AA00A57A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABE9722F3E4AA00A57A0A /* main.m */; };
+		BDBABEA222F3E4AA00A57A0A /* EnergyBarsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEA122F3E4AA00A57A0A /* EnergyBarsDemoTests.m */; };
+		BDBABEAD22F3E4AA00A57A0A /* EnergyBarsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEAC22F3E4AA00A57A0A /* EnergyBarsDemoUITests.m */; };
+		BDBABEBC22F3E50A00A57A0A /* EnergyProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEBB22F3E50A00A57A0A /* EnergyProgressLayer.m */; };
+		BDBABEBF22F3E57E00A57A0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDBABEBE22F3E57E00A57A0A /* UIKit.framework */; };
+		BDBABEC222F3E7C700A57A0A /* EnergyProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEC122F3E7C700A57A0A /* EnergyProgressView.m */; };
+		BDBABEC522F3E85300A57A0A /* EnergyBarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEC422F3E85300A57A0A /* EnergyBarsView.m */; };
+		BDBABEDE22F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEC822F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BDBABEDF22F3E90A00A57A0A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABED422F3E90A00A57A0A /* MASCompositeConstraint.m */; };
+		BDBABEE022F3E90A00A57A0A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABED522F3E90A00A57A0A /* MASConstraintMaker.m */; };
+		BDBABEE122F3E90A00A57A0A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABED622F3E90A00A57A0A /* MASLayoutConstraint.m */; };
+		BDBABEE222F3E90A00A57A0A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABED722F3E90A00A57A0A /* NSArray+MASAdditions.m */; };
+		BDBABEE322F3E90A00A57A0A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABED822F3E90A00A57A0A /* View+MASAdditions.m */; };
+		BDBABEE422F3E90A00A57A0A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEDB22F3E90A00A57A0A /* MASConstraint.m */; };
+		BDBABEE522F3E90A00A57A0A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEDC22F3E90A00A57A0A /* MASViewConstraint.m */; };
+		BDBABEE622F3E90A00A57A0A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBABEDD22F3E90A00A57A0A /* MASViewAttribute.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDBABE9E22F3E4AA00A57A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBABE7D22F3E4A800A57A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBABE8422F3E4A800A57A0A;
+			remoteInfo = EnergyBarsDemo;
+		};
+		BDBABEA922F3E4AA00A57A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBABE7D22F3E4A800A57A0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBABE8422F3E4A800A57A0A;
+			remoteInfo = EnergyBarsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDBABE8522F3E4A800A57A0A /* EnergyBarsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergyBarsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBABE8822F3E4A800A57A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDBABE8922F3E4A800A57A0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDBABE8B22F3E4A800A57A0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDBABE8C22F3E4A800A57A0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDBABE8F22F3E4A800A57A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDBABE9122F3E4AA00A57A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDBABE9422F3E4AA00A57A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDBABE9622F3E4AA00A57A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBABE9722F3E4AA00A57A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDBABE9D22F3E4AA00A57A0A /* EnergyBarsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyBarsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBABEA122F3E4AA00A57A0A /* EnergyBarsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyBarsDemoTests.m; sourceTree = "<group>"; };
+		BDBABEA322F3E4AA00A57A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBABEA822F3E4AA00A57A0A /* EnergyBarsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnergyBarsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBABEAC22F3E4AA00A57A0A /* EnergyBarsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyBarsDemoUITests.m; sourceTree = "<group>"; };
+		BDBABEAE22F3E4AA00A57A0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDBABEBA22F3E50A00A57A0A /* EnergyProgressLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnergyProgressLayer.h; sourceTree = "<group>"; };
+		BDBABEBB22F3E50A00A57A0A /* EnergyProgressLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyProgressLayer.m; sourceTree = "<group>"; };
+		BDBABEBE22F3E57E00A57A0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDBABEC022F3E7C700A57A0A /* EnergyProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnergyProgressView.h; sourceTree = "<group>"; };
+		BDBABEC122F3E7C700A57A0A /* EnergyProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyProgressView.m; sourceTree = "<group>"; };
+		BDBABEC322F3E85300A57A0A /* EnergyBarsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnergyBarsView.h; sourceTree = "<group>"; };
+		BDBABEC422F3E85300A57A0A /* EnergyBarsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyBarsView.m; sourceTree = "<group>"; };
+		BDBABEC722F3E90A00A57A0A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BDBABEC822F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BDBABEC922F3E90A00A57A0A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BDBABECA22F3E90A00A57A0A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BDBABECB22F3E90A00A57A0A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BDBABECC22F3E90A00A57A0A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BDBABECD22F3E90A00A57A0A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BDBABECE22F3E90A00A57A0A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BDBABECF22F3E90A00A57A0A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BDBABED022F3E90A00A57A0A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BDBABED122F3E90A00A57A0A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BDBABED222F3E90A00A57A0A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BDBABED322F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BDBABED422F3E90A00A57A0A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BDBABED522F3E90A00A57A0A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BDBABED622F3E90A00A57A0A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BDBABED722F3E90A00A57A0A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BDBABED822F3E90A00A57A0A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BDBABED922F3E90A00A57A0A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BDBABEDA22F3E90A00A57A0A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BDBABEDB22F3E90A00A57A0A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BDBABEDC22F3E90A00A57A0A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BDBABEDD22F3E90A00A57A0A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDBABE8222F3E4A800A57A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABEBF22F3E57E00A57A0A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABE9A22F3E4AA00A57A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABEA522F3E4AA00A57A0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDBABE7C22F3E4A800A57A0A = {
+			isa = PBXGroup;
+			children = (
+				BDBABE8722F3E4A800A57A0A /* EnergyBarsDemo */,
+				BDBABEA022F3E4AA00A57A0A /* EnergyBarsDemoTests */,
+				BDBABEAB22F3E4AA00A57A0A /* EnergyBarsDemoUITests */,
+				BDBABE8622F3E4A800A57A0A /* Products */,
+				BDBABEBD22F3E57E00A57A0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDBABE8622F3E4A800A57A0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABE8522F3E4A800A57A0A /* EnergyBarsDemo.app */,
+				BDBABE9D22F3E4AA00A57A0A /* EnergyBarsDemoTests.xctest */,
+				BDBABEA822F3E4AA00A57A0A /* EnergyBarsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDBABE8722F3E4A800A57A0A /* EnergyBarsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABEC622F3E90A00A57A0A /* Masonry */,
+				BDBABE8822F3E4A800A57A0A /* AppDelegate.h */,
+				BDBABE8922F3E4A800A57A0A /* AppDelegate.m */,
+				BDBABE8B22F3E4A800A57A0A /* ViewController.h */,
+				BDBABE8C22F3E4A800A57A0A /* ViewController.m */,
+				BDBABEBA22F3E50A00A57A0A /* EnergyProgressLayer.h */,
+				BDBABEBB22F3E50A00A57A0A /* EnergyProgressLayer.m */,
+				BDBABEC022F3E7C700A57A0A /* EnergyProgressView.h */,
+				BDBABEC122F3E7C700A57A0A /* EnergyProgressView.m */,
+				BDBABEC322F3E85300A57A0A /* EnergyBarsView.h */,
+				BDBABEC422F3E85300A57A0A /* EnergyBarsView.m */,
+				BDBABE8E22F3E4A800A57A0A /* Main.storyboard */,
+				BDBABE9122F3E4AA00A57A0A /* Assets.xcassets */,
+				BDBABE9322F3E4AA00A57A0A /* LaunchScreen.storyboard */,
+				BDBABE9622F3E4AA00A57A0A /* Info.plist */,
+				BDBABE9722F3E4AA00A57A0A /* main.m */,
+			);
+			path = EnergyBarsDemo;
+			sourceTree = "<group>";
+		};
+		BDBABEA022F3E4AA00A57A0A /* EnergyBarsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABEA122F3E4AA00A57A0A /* EnergyBarsDemoTests.m */,
+				BDBABEA322F3E4AA00A57A0A /* Info.plist */,
+			);
+			path = EnergyBarsDemoTests;
+			sourceTree = "<group>";
+		};
+		BDBABEAB22F3E4AA00A57A0A /* EnergyBarsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABEAC22F3E4AA00A57A0A /* EnergyBarsDemoUITests.m */,
+				BDBABEAE22F3E4AA00A57A0A /* Info.plist */,
+			);
+			path = EnergyBarsDemoUITests;
+			sourceTree = "<group>";
+		};
+		BDBABEBD22F3E57E00A57A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABEBE22F3E57E00A57A0A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBABEC622F3E90A00A57A0A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BDBABEC722F3E90A00A57A0A /* MASCompositeConstraint.h */,
+				BDBABEC822F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BDBABEC922F3E90A00A57A0A /* MASConstraint+Private.h */,
+				BDBABECA22F3E90A00A57A0A /* MASLayoutConstraint.h */,
+				BDBABECB22F3E90A00A57A0A /* NSArray+MASShorthandAdditions.h */,
+				BDBABECC22F3E90A00A57A0A /* MASConstraintMaker.h */,
+				BDBABECD22F3E90A00A57A0A /* View+MASAdditions.h */,
+				BDBABECE22F3E90A00A57A0A /* NSArray+MASAdditions.h */,
+				BDBABECF22F3E90A00A57A0A /* MASUtilities.h */,
+				BDBABED022F3E90A00A57A0A /* MASViewAttribute.h */,
+				BDBABED122F3E90A00A57A0A /* MASViewConstraint.h */,
+				BDBABED222F3E90A00A57A0A /* MASConstraint.h */,
+				BDBABED322F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BDBABED422F3E90A00A57A0A /* MASCompositeConstraint.m */,
+				BDBABED522F3E90A00A57A0A /* MASConstraintMaker.m */,
+				BDBABED622F3E90A00A57A0A /* MASLayoutConstraint.m */,
+				BDBABED722F3E90A00A57A0A /* NSArray+MASAdditions.m */,
+				BDBABED822F3E90A00A57A0A /* View+MASAdditions.m */,
+				BDBABED922F3E90A00A57A0A /* View+MASShorthandAdditions.h */,
+				BDBABEDA22F3E90A00A57A0A /* Masonry.h */,
+				BDBABEDB22F3E90A00A57A0A /* MASConstraint.m */,
+				BDBABEDC22F3E90A00A57A0A /* MASViewConstraint.m */,
+				BDBABEDD22F3E90A00A57A0A /* MASViewAttribute.m */,
+			);
+			name = Masonry;
+			path = ../../../Documents/IS/workspace/iSpeak/mobile/iOS_M/src/ToolsThirdParty/ToolsThirdParty/Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDBABE8422F3E4A800A57A0A /* EnergyBarsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBABEB122F3E4AA00A57A0A /* Build configuration list for PBXNativeTarget "EnergyBarsDemo" */;
+			buildPhases = (
+				BDBABE8122F3E4A800A57A0A /* Sources */,
+				BDBABE8222F3E4A800A57A0A /* Frameworks */,
+				BDBABE8322F3E4A800A57A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnergyBarsDemo;
+			productName = EnergyBarsDemo;
+			productReference = BDBABE8522F3E4A800A57A0A /* EnergyBarsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDBABE9C22F3E4AA00A57A0A /* EnergyBarsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBABEB422F3E4AA00A57A0A /* Build configuration list for PBXNativeTarget "EnergyBarsDemoTests" */;
+			buildPhases = (
+				BDBABE9922F3E4AA00A57A0A /* Sources */,
+				BDBABE9A22F3E4AA00A57A0A /* Frameworks */,
+				BDBABE9B22F3E4AA00A57A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBABE9F22F3E4AA00A57A0A /* PBXTargetDependency */,
+			);
+			name = EnergyBarsDemoTests;
+			productName = EnergyBarsDemoTests;
+			productReference = BDBABE9D22F3E4AA00A57A0A /* EnergyBarsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDBABEA722F3E4AA00A57A0A /* EnergyBarsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDBABEB722F3E4AA00A57A0A /* Build configuration list for PBXNativeTarget "EnergyBarsDemoUITests" */;
+			buildPhases = (
+				BDBABEA422F3E4AA00A57A0A /* Sources */,
+				BDBABEA522F3E4AA00A57A0A /* Frameworks */,
+				BDBABEA622F3E4AA00A57A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDBABEAA22F3E4AA00A57A0A /* PBXTargetDependency */,
+			);
+			name = EnergyBarsDemoUITests;
+			productName = EnergyBarsDemoUITests;
+			productReference = BDBABEA822F3E4AA00A57A0A /* EnergyBarsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDBABE7D22F3E4A800A57A0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Bepa;
+				TargetAttributes = {
+					BDBABE8422F3E4A800A57A0A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BDBABE9C22F3E4AA00A57A0A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BDBABE8422F3E4A800A57A0A;
+					};
+					BDBABEA722F3E4AA00A57A0A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BDBABE8422F3E4A800A57A0A;
+					};
+				};
+			};
+			buildConfigurationList = BDBABE8022F3E4A800A57A0A /* Build configuration list for PBXProject "EnergyBarsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDBABE7C22F3E4A800A57A0A;
+			productRefGroup = BDBABE8622F3E4A800A57A0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDBABE8422F3E4A800A57A0A /* EnergyBarsDemo */,
+				BDBABE9C22F3E4AA00A57A0A /* EnergyBarsDemoTests */,
+				BDBABEA722F3E4AA00A57A0A /* EnergyBarsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDBABE8322F3E4A800A57A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABE9522F3E4AA00A57A0A /* LaunchScreen.storyboard in Resources */,
+				BDBABE9222F3E4AA00A57A0A /* Assets.xcassets in Resources */,
+				BDBABE9022F3E4A800A57A0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABE9B22F3E4AA00A57A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABEA622F3E4AA00A57A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDBABE8122F3E4A800A57A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABEC522F3E85300A57A0A /* EnergyBarsView.m in Sources */,
+				BDBABEBC22F3E50A00A57A0A /* EnergyProgressLayer.m in Sources */,
+				BDBABEE122F3E90A00A57A0A /* MASLayoutConstraint.m in Sources */,
+				BDBABEDE22F3E90A00A57A0A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BDBABE8D22F3E4A800A57A0A /* ViewController.m in Sources */,
+				BDBABEE622F3E90A00A57A0A /* MASViewAttribute.m in Sources */,
+				BDBABEE222F3E90A00A57A0A /* NSArray+MASAdditions.m in Sources */,
+				BDBABEDF22F3E90A00A57A0A /* MASCompositeConstraint.m in Sources */,
+				BDBABEE022F3E90A00A57A0A /* MASConstraintMaker.m in Sources */,
+				BDBABEE322F3E90A00A57A0A /* View+MASAdditions.m in Sources */,
+				BDBABEC222F3E7C700A57A0A /* EnergyProgressView.m in Sources */,
+				BDBABE9822F3E4AA00A57A0A /* main.m in Sources */,
+				BDBABEE522F3E90A00A57A0A /* MASViewConstraint.m in Sources */,
+				BDBABE8A22F3E4A800A57A0A /* AppDelegate.m in Sources */,
+				BDBABEE422F3E90A00A57A0A /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABE9922F3E4AA00A57A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABEA222F3E4AA00A57A0A /* EnergyBarsDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDBABEA422F3E4AA00A57A0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBABEAD22F3E4AA00A57A0A /* EnergyBarsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDBABE9F22F3E4AA00A57A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBABE8422F3E4A800A57A0A /* EnergyBarsDemo */;
+			targetProxy = BDBABE9E22F3E4AA00A57A0A /* PBXContainerItemProxy */;
+		};
+		BDBABEAA22F3E4AA00A57A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBABE8422F3E4A800A57A0A /* EnergyBarsDemo */;
+			targetProxy = BDBABEA922F3E4AA00A57A0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDBABE8E22F3E4A800A57A0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBABE8F22F3E4A800A57A0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDBABE9322F3E4AA00A57A0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDBABE9422F3E4AA00A57A0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDBABEAF22F3E4AA00A57A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDBABEB022F3E4AA00A57A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDBABEB222F3E4AA00A57A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnergyBarsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-DLINUX_iOS_64",
+					"-DLINUX_iOS",
+					"-DLINUX",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.EnergyBarsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDBABEB322F3E4AA00A57A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnergyBarsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-DLINUX_iOS_64",
+					"-DLINUX_iOS",
+					"-DLINUX",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.EnergyBarsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDBABEB522F3E4AA00A57A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnergyBarsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.EnergyBarsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnergyBarsDemo.app/EnergyBarsDemo";
+			};
+			name = Debug;
+		};
+		BDBABEB622F3E4AA00A57A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnergyBarsDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.EnergyBarsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnergyBarsDemo.app/EnergyBarsDemo";
+			};
+			name = Release;
+		};
+		BDBABEB822F3E4AA00A57A0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnergyBarsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.EnergyBarsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnergyBarsDemo;
+			};
+			name = Debug;
+		};
+		BDBABEB922F3E4AA00A57A0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EnergyBarsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bepa.EnergyBarsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnergyBarsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDBABE8022F3E4A800A57A0A /* Build configuration list for PBXProject "EnergyBarsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABEAF22F3E4AA00A57A0A /* Debug */,
+				BDBABEB022F3E4AA00A57A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBABEB122F3E4AA00A57A0A /* Build configuration list for PBXNativeTarget "EnergyBarsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABEB222F3E4AA00A57A0A /* Debug */,
+				BDBABEB322F3E4AA00A57A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBABEB422F3E4AA00A57A0A /* Build configuration list for PBXNativeTarget "EnergyBarsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABEB522F3E4AA00A57A0A /* Debug */,
+				BDBABEB622F3E4AA00A57A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDBABEB722F3E4AA00A57A0A /* Build configuration list for PBXNativeTarget "EnergyBarsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDBABEB822F3E4AA00A57A0A /* Debug */,
+				BDBABEB922F3E4AA00A57A0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDBABE7D22F3E4A800A57A0A /* Project object */;
+}
