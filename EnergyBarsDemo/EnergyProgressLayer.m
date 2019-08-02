@@ -6,6 +6,9 @@
 //  Copyright © 2019 Bepa. All rights reserved.
 //
 
+#define ScreenScale [[UIScreen mainScreen] scale]
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
 #import "EnergyProgressLayer.h"
 
 static CALayer* hand_layer(CGFloat contentsScale) {
